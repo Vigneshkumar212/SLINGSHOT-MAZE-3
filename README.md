@@ -1,2 +1,2 @@
-# SLINGSHOT-MAZE-3
-This is my C30 Project
+# AngryBirdsStage3
+Stage 3 Angry Birds: Introducing Constraint
