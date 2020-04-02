@@ -138,7 +138,7 @@ function draw(){
     if (gameState === "end"){
         if (time === 0) {
             text(" You lose, Better luck next time ",600,250);
-            text(" You scored "+score+" points.",600,250);
+            text(" You scored "+score+" points.",600,275);
             World.remove(world,box1);
             World.remove(world,box2);
             World.remove(world,box3);              
