@@ -69,7 +69,7 @@ function draw(){
         text("Instructions",500,50);
         text("Drag  the  ball ,  aim  and  shoot  at  the  boxes.",20,140);
         text("Press  SPACE  to  attach  the  ball  to  the  Catapult. ",20,170);
-        text("You  win  if  you  1500 points, you get 500 bonus points for seeing this !!!",20,200);
+        text("You  win  if  you  1500 points !!!",20,200);
         text("You  lose  if  the  time  gets  over. ",20,230);
         text("The  boxes  only  gets  destroyed  if  you  hit  them  hard,  so  good  luck .",20,260);
         text("To get back to the game press backspace.",20,290);
@@ -84,16 +84,15 @@ function draw(){
             }
         }
             
-        if(time===0 || score === 1500){
+        if(time===0 || score === 1000){
                   gameState = "end";
         }
         
         text("Time Left: "+ time + " seconds" ,250,20) ;
 
-        text("Press  esc (ESCAPE)  to  read  the  Instructions",600,20);  
-        text("Read the Instructions for 500 bonus points",600,45); 
-        text("The green ball is heavey,thus does more damage",600,70); 
-        text("The yellow ball is light,thus does very less damage",600,95); 
+        text("Press  esc (ESCAPE)  to  read  the  Instructions",600,20);   
+        text("The green ball is heavey,thus does more damage",600,45); 
+        text("The yellow ball is light,thus does very less damage",600,70); 
          
     
 
@@ -162,7 +161,7 @@ function draw(){
             World.remove(world,slingShot);
               }
         
-        if (score === 1500){
+        if (score === 1000){
             text(" Congrats !!! ",597,200);
             text(" You win",600,250);
         } 
@@ -216,9 +215,7 @@ function keyPressed(){
 
     
 
-    if(keyCode === 27){
-  
-        score  = score + 500; 
+    if(keyCode === 27){ 
         gameState = "start"
    }
     if(keyCode === 8){
