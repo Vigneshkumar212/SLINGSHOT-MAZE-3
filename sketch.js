@@ -91,8 +91,8 @@ function draw(){
         text("Time Left: "+ time + " seconds" ,250,20) ;
 
         text("Press  esc (ESCAPE)  to  read  the  Instructions",600,20);   
-        text("The green ball is heavey,thus does more damage",600,45); 
-        text("The yellow ball is light,thus does very less damage",600,70); 
+        text("The yellow ball is heavey,thus does more damage",600,45); 
+        text("The blue ball is light,thus does very less damage",600,70); 
          
     
 
